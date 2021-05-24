@@ -1,17 +1,15 @@
 import "./App.css";
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
-      <input
-        className="form-control form-control-lg"
-        type="text"
-        placeholder=".form-control-lg"
-        aria-label=".form-control-lg example"
-      />
-      <a href="https://github.com/vectorbeat/dictionary-app" target="_blank">
-        View on git hub
-      </a>
+      <div className="container">
+        <Search />
+        <a href="https://github.com/vectorbeat/dictionary-app" target="_blank">
+          View on git hub
+        </a>
+      </div>
     </div>
   );
 }

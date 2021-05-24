@@ -13,7 +13,7 @@ export default function Search() {
   return (
     <div className="SearchForm">
       <form onSubmit={Search}>
-        <dv className="row">
+        <div className="row">
           <input
             className="form-control form-control-lg search-field col"
             type="search"
@@ -22,10 +22,10 @@ export default function Search() {
             autoFocus={true}
             onChange={handleKeywordChange}
           />
-          <button type="submit" class="btn btn-primary search-btn col-sm-2">
+          <button type="submit" className="btn btn-primary search-btn col-sm-2">
             SEARCH
           </button>
-        </dv>
+        </div>
       </form>
     </div>
   );

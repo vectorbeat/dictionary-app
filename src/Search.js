@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Search() {
+  let [keyword, setKeyword] = useState("");
+  function Search(event) {
+    event.preventDefault();
+    alert(`searching for ${keyword}`);
+  }
+
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
+  }
   return (
     <div className="SearchForm">
-      <form>
+      <form onSubmit={Search}>
         <dv className="row">
           <input
             className="form-control form-control-lg search-field col"
@@ -11,8 +20,9 @@ export default function Search() {
             placeholder="look up a word..."
             aria-label=".form-control-lg example"
             autoFocus={true}
+            onChange={handleKeywordChange}
           />
-          <button type="submit" class="btn btn-primary search-btn col-2">
+          <button type="submit" class="btn btn-primary search-btn col-sm-2">
             SEARCH
           </button>
         </dv>

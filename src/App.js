@@ -6,9 +6,15 @@ function App() {
     <div className="App">
       <div className="container">
         <Search />
-        <a href="https://github.com/vectorbeat/dictionary-app" target="_blank">
-          View on git hub
-        </a>
+        <div className="footer">
+          <a
+            href="https://github.com/vectorbeat/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View on git hub
+          </a>
+        </div>
       </div>
     </div>
   );

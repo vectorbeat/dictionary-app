@@ -9,6 +9,9 @@ function App() {
         placeholder=".form-control-lg"
         aria-label=".form-control-lg example"
       />
+      <a href="https://github.com/vectorbeat/dictionary-app" target="_blank">
+        View on git hub
+      </a>
     </div>
   );
 }

@@ -5,6 +5,7 @@
 .App {
   font-family: "KoHo", sans-serif;
   text-align: center;
+  color: #2c3a49;
 }
 
 .footer {
@@ -22,24 +23,48 @@
 .search-btn {
   margin-left: 10px;
   margin-top: 10px;
+  background-color: #fda5a3;
+  border: #fda5a3;
+  color: #2c3a49;
+}
+
+.search-btn:hover {
+  background-color: #ba7b7a;
+  border: #ba7b7a;
+  color: #2c3a49;
+}
+
+.btn-primary {
+  background-color: #fda5a3;
+  border: #fda5a3;
+  color: #2c3a49;
+}
+
+.btn-primary:hover {
+  background-color: #ba7b7a;
+  border: #ba7b7a;
+  color: #2c3a49;
 }
 h1 {
-  font-size: 32px;
+  font-size: 38px;
   padding: 10px;
+  padding-bottom: 20px;
   font-weight: bold;
   margin-top: 30px;
-  background-color: black;
+  background-color: #2c3a49;
   color: white;
 }
 
 .card {
   margin-bottom: 20px;
+  box-shadow: black;
 }
 h3 {
   font-size: 28px;
 }
 .card-header {
   font-size: 28px;
+  background-color: #c4d0dc;
 }
 .definition {
   font-size: 22px;

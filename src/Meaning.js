@@ -12,9 +12,7 @@ export default function Meaning(props) {
           <p className="card-text example">
             {props.meaning.definitions[0].example}
           </p>
-          <a href="https://www.google.com" className="btn btn-primary">
-            {props.meaning.definitions[0].synonyms}
-          </a>
+          <div className="links">{props.meaning.definitions[0].synonyms}</div>
         </div>
       </div>
     </div>

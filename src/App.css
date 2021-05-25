@@ -23,3 +23,15 @@
   margin-left: 10px;
   margin-top: 10px;
 }
+h3 {
+  font-size: 28px;
+}
+
+.definition {
+  font-size: 22px;
+}
+
+.example {
+  font-size: 20px;
+  font-style: italic;
+}

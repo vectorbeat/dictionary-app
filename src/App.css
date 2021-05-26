@@ -100,3 +100,13 @@ li {
   font-weight: bold;
   color: #fda5a3;
 }
+
+.audio-btn {
+  background-color: #c4d0dc;
+  color: #2c3a49;
+  display: inline;
+}
+
+.bi-play-circle-fill {
+  margin-right: 10px;
+}

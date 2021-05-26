@@ -76,11 +76,27 @@ h3 {
 }
 
 .example {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: lighter;
   font-style: italic;
+  margin-top: 10px;
 }
 
 .links {
+  font-weight: bold;
+  color: #fda5a3;
+}
+
+.synonyms {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-flex;
+  margin: 10px;
+  font-size: 18px;
   font-weight: bold;
   color: #fda5a3;
 }

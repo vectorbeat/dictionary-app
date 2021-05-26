@@ -14,8 +14,6 @@ export default function Meaning(props) {
               </div>
             );
           })}
-
-          <div className="links">{props.meaning.definitions[0].synonyms}</div>
         </div>
       </div>
     </div>

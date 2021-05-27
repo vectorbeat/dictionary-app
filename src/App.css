@@ -62,7 +62,7 @@ h1 {
 
 .card {
   margin-bottom: 20px;
-  box-shadow: black;
+  box-shadow: 4px 4px 21px 1px rgba(140, 140, 140, 0.42);
 }
 h3 {
   font-size: 28px;

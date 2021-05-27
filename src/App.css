@@ -54,7 +54,7 @@ h1 {
   padding-bottom: 20px;
   font-weight: bold;
   margin-top: 30px;
-  margin-bottom: 20px;
+
   background-color: #2c3a49;
   color: white;
   border-radius: 4px;
@@ -101,12 +101,17 @@ li {
   color: #fda5a3;
 }
 
-.audio-btn {
-  background-color: #c4d0dc;
-  color: #2c3a49;
-  display: inline;
+.phonetics {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.bi-play-circle-fill {
-  margin-right: 10px;
+.phonetics-text {
+  display: inline;
+  font-size: 28px;
+  padding-top: 5px;
+}
+
+.phonetics-audio {
+  display: inline;
 }

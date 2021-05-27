@@ -2,7 +2,6 @@ import React from "react";
 import ReactAudioPlayer from "react-audio-player";
 
 export default function Phonetics(props) {
-  console.log(props.phonetic);
   let audioUrl = props.phonetic.audio;
   return (
     <div className="phonetics row">

@@ -6,8 +6,8 @@ export default function Phonetics(props) {
   let audioUrl = props.phonetic.audio;
   return (
     <div className="phonetics row">
-      <div className="phonetics-text col-sm-6">{props.phonetic.text}</div>
-      <div className="phonetics-audio col-sm-6">
+      <div className="phonetics-text col-sm">{props.phonetic.text}</div>
+      <div className="phonetics-audio col-sm">
         <ReactAudioPlayer src={audioUrl} controls />
       </div>
     </div>

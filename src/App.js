@@ -4,7 +4,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid">
         <Search />
         <div className="footer">
           <a

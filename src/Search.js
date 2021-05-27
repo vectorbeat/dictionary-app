@@ -25,7 +25,7 @@ export default function Search() {
       <form onSubmit={Search}>
         <div className="row">
           <input
-            className="form-control form-control-lg search-field col"
+            className="form-control form-control-lg search-field col-sm"
             type="search"
             placeholder="look up a word..."
             aria-label=".form-control-lg example"

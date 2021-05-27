@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <div className="container-fluid">
-        <Search defaultKeyword="sunset"/>
+        <Search defaultKeyword="sunset" />
+
         <div className="footer">
           <a
             href="https://github.com/vectorbeat/dictionary-app"
